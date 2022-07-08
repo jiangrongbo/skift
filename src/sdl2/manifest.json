@@ -1,0 +1,22 @@
+{
+    "id": "sdl2",
+    "type": "lib",
+    "tools": {
+        "cc": {
+            "flags": [
+                "@exec",
+                "pkg-config",
+                "--cflags",
+                "sdl2"
+            ]
+        },
+        "ld": {
+            "flags": [
+                "@exec",
+                "pkg-config",
+                "--libs",
+                "sdl2"
+            ]
+        }
+    }
+}

@@ -1,1 +1,9 @@
-"@include(meta/targets/host-@uname(machine).json)"
+[
+    "@include",
+    "meta/targets/host-",
+    [
+        "@uname",
+        "machine"
+    ],
+    ".json"
+]
